@@ -1,0 +1,8 @@
+name: 3m-pattern
+run-name: does it run...
+on: [push]
+jobs:
+  run-3m:
+    runs-on: ubuntu-latest
+    steps:
+      - run: make test

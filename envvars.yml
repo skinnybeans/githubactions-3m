@@ -1,0 +1,8 @@
+envvars:
+  - name: TF_INPUT
+    optional: true
+    desc: ignore input
+
+  - name: AWS_PROFILE
+    optional: true
+    desc: ignore input
